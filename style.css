@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: rgb(43, 221, 221);
+    align-items: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar ul li a{
+ text-decoration: none;
+justify-content: center;
+ padding: 8px 25px;
+ transition: all 1s ease-in;  
+}
+.navbar ul li a:hover{
+       background-color: rgb(7, 88, 112);
+       color: rgb(245, 248, 248);
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 204, 152);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(225, 76, 76);
+}
+.headings{
+    font-size: 3rem;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: rgb(89, 182, 248);
+    color: rgb(3, 3, 18);
+    transition:  ease-out;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+    
+    
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: aqua;
+    box-shadow: 0 0 5px rgb(66, 66, 82);
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+p{
+    font-size: large;
+    margin-top: 20pc;
+    color: white;
+    text-align:center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+h3{
+    color:  burlywood;
+    font-size: 1rem;
+}
+.about h1{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: burlywood;
+    text-align: left;
+    margin-top: 5pc;
+    margin-left: 0;
+}
+.about p{
+    font-size: 2rem;
+    color: burlywood;
+    margin-left: 0;
+    text-align: left;
+}
+.about p yep{
+    color: burlywood;
+}
+ol li{
+    align-items: flex;
+    color:  burlywood;
+    font-size: 2rem;
+    margin-left: 5pc;
+}
+h2{
+    text-align: left;
+    margin-right: 1pc;
+    color:  burlywood
+}
+section p{
+    color: blanchedalmond;
+    
+
+}
+article p{
+    text-align: left;
+    font-size: 2.2rem;
+    margin-top: 6.5pc;
+    color:white;
+}
+
+.yep{
+ margin: 0;   
+}
+h1{
+    color:  rgb(238, 238, 130);
+    text-align: left;
+    margin-top: 5pc;
+
+}
+.port p{
+    font-size: 1.5rem;
+    color:rgb(251, 250, 249);
+    margin: 0;
+    text-align: left;
+    text-shadow: 50%;
+}
+.intro h1{
+    margin: 2pc;
+}
+img{
+    background-color: none;
+    background-attachment: small;
+    background-image: none;
+    width: 30%;
+    height: 30%;
+    margin-left:80% ;
+    margin-right: 0;
+
+}
+.img img{
+    margin-left: 0;
+    margin-right: 80%;
+}
